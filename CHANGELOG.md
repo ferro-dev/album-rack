@@ -10,8 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - `LICENSE` (MIT) and `README.md`.
 - Go module (`go.mod`, Go 1.22+) and a minimal CLI entrypoint.
-- Community infrastructure: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`,
-  `SECURITY.md`, `CHANGELOG.md`, GitHub issue and pull request templates.
+- Community infrastructure: `CONTRIBUTING.md`, `CHANGELOG.md`, GitHub issue
+  and pull request templates.
 - Continuous integration (GitHub Actions): gofmt + `go vet`, golangci-lint,
   and build + test across Ubuntu 22.04/24.04, all on the Go 1.22 floor.
 - Linting and dev tooling: `golangci-lint` config (`.golangci.yml`) plus a CI
