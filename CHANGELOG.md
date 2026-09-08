@@ -17,5 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Linting and dev tooling: `golangci-lint` config (`.golangci.yml`) plus a CI
   lint job, a `.githooks/pre-commit` hook mirroring the CI gates, and a
   `Makefile` (`build`/`test`/`vet`/`fmt`/`lint`/`hooks`/`check`).
+- Project and implementation plan (`docs/project-plan.md`): data model,
+  entry flows, duplicate/release detection, storage and backup, testing
+  strategy, and milestone roadmap.
 
 [Unreleased]: https://github.com/ferro-dev/album-rack/commits/main
